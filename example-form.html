@@ -1,0 +1,58 @@
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vigilante Registration Form</title>
+</head>
+
+<body>
+    <form action="">
+        <h3>Vigilante Registration Form</h3>
+
+        <div>
+            <label>Name: <input type="text" name="name" value="" placeholder="Bruce Wayne" required></label>
+        </div>
+        <br>
+        <div>
+            <label>E-mail: <input type="email" name="email" value="" placeholder="batmanrlz@waynecorp.com"
+                    required></label>
+            <label>Password: <input type="password" name="password" value="" required></label>
+        </div>
+        <br>
+        <div>
+            <label>Date of birth: <input type="date" name="birthday" value="" required></label>
+            <label>Picture (no cowls): <input type="file" name="picture" value="" required></label>
+        </div>
+        <br>
+        <div>
+            <label>Birthplace: <select name="nationality" required>
+                    <option value="Gotham" name="nationality">Gotham City</option>
+                    <option value="Star" name="nationality">Star City</option>
+                    <option value="Metropolis" name="nationality">Metropolis</option>
+                    <option value="NandaParbat" name="nationality">Nanda Parbat</option>
+                </select></label>
+        </div>
+        <br>
+        <div>
+            Which qualities would you say best describe you?
+            <label>Bat-Cash<input type="checkbox" name="cash" /></label> |
+            <label>Bat-Smarts<input type="checkbox" name="intelligence" /></label> |
+            <label>Bat-Utility Belt<input type="checkbox" name="util-belt" /></label> |
+            <label>Alfred<input type="checkbox" name="butler" /></label> |
+            <label>Baseball Bat<input type="checkbox" name="bat" /></label>
+        </div>
+        <br>
+        <div>
+            <label for="description">Why are you pursuing a path in vigilantism?</label><br>
+            <textarea name="description" id="description" cols="50" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit" />
+        </div>
+    </form>
+</body>
+
+</html>
